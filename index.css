@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro+Titling&family=Oswald:wght@300&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro+Titling&family=Roboto:wght@300;500&display=swap');
+.phone {
+    background-color:#f0e5ce;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 50%;
+}
+img.fon {
+    min-height: 100%;
+    min-width: 640px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.photo {
+    position:relative;
+    left:35px;
+    border: 8px double #5c3e03;
+    width: 170px;
+    border-radius: 30% 30%;
+    box-shadow: 5px 0 5px #000;
+    
+}
+.photo:hover {
+    width: 180px;
+}
+.font {
+    position: relative;
+    left: 195px;
+    font-family:Roboto;
+    font-style:italic;
+    font-size: 15px;
+}
+.fontt {
+    position:relative;
+    border:3px solid black;
+    bottom: 17px;
+    left: 80px;
+    height: 75%;
+    width: 120px;
+    background: linear-gradient(to left, #756646, #d9c49a);
+    color: white;
+    border-radius:30% 5% / 30% 5%;
+    text-shadow: 3px 0 3px #000;
+}
+
+.table {
+    border:10px double black;
+    left: 60px;
+    width: 500px;
+    height: 150px;
+    size: 500px;
+    position:relative;
+    margin-top:50px;
+    background-color:#FF7F50;
+    box-shadow: 9px 5px 3px #8B4513;
+    line-height:17px;
+    
+}
+td,th{
+    border:2px solid black;
+    font-family: Oswald;
+    padding: 3px;
+    margin: 3px;
+    word-spacing:1px;
+    
+}
+
+.table, .photo{
+    margin-left:20px;
+}
+.key {
+    background-color: #FFDAB9;
+    border:2px solid #000000;
+}
+.red {
+    background-color: #916711d6;
+    border:2px solid #000000;
+}
+.submit {
+    position: relative;
+    left:80px;
+    top: 15px;
+    line-height: 10px; 
+    border:3px solid #2b1d01;
+    width: 114px;
+    box-shadow: 3px 5px 4px #000000;
+}
+.submitf {
+    font-size: 20px;
+    background-color:#9c865ad2 ;
+}
+a:hover {
+    background: #6e6960;
+    color:white;
+    padding: 3px;
+
+}
